@@ -31,9 +31,7 @@ describe('test', () => {
 	});
 });
 
-/**
- * Guess what, this example does not work in Node 18 with a built in module like "fs/promises"!
- * /
+// Guess what, this example does not work in Node 18 with a built in module like "fs/promises"!
 ```
 
 In this project's `packages` folder, you will see examples of what works these days, and what does not work. Over time, I would like to run all of these examples on multiple node versions. I would also like to test with Node.js' native esm support.
